@@ -2,6 +2,12 @@
 
 A git fsmonitor hook written in Rust.
 
+This fork merges the PR made by @nekowinston into master for installing with cargo
+
+```
+cargo install --git https://github.com/kloud-s-contribs/rs-git-fsmonitor.git
+```
+
 ## Installation
 
 The heavy lifting of this tool is handled by Facebook's `watchman` utilty, so you will need [watchman](https://facebook.github.io/watchman/docs/install.html) installed.
